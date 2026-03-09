@@ -1,0 +1,57 @@
+{
+  "feed_name": "Sample Threat Intelligence Feed",
+  "generated": "2026-03-10T01:00:00Z",
+  "description": "Example threat data for testing the aggregator tool",
+  "results": [
+    {
+      "ip": "185.220.101.34",
+      "threat_type": "tor_exit_node",
+      "confidence": 95,
+      "last_seen": "2026-03-09",
+      "reports": 142
+    },
+    {
+      "ip": "45.155.205.233",
+      "threat_type": "port_scanner",
+      "confidence": 88,
+      "last_seen": "2026-03-09",
+      "reports": 67
+    },
+    {
+      "ip": "103.144.240.29",
+      "threat_type": "botnet_c2",
+      "confidence": 92,
+      "last_seen": "2026-03-08",
+      "reports": 234
+    },
+    {
+      "domain": "secure-paypal-login.com",
+      "threat_type": "phishing",
+      "target_brand": "PayPal",
+      "first_seen": "2026-03-05"
+    },
+    {
+      "domain": "microsoft-verify.net",
+      "threat_type": "phishing",
+      "target_brand": "Microsoft",
+      "first_seen": "2026-03-06"
+    },
+    {
+      "url": "http://malware-download.ru/payload.exe",
+      "threat_type": "malware_download",
+      "malware_family": "Emotet"
+    },
+    {
+      "hash": "e99a18c428cb38d5f260853678922e03",
+      "hash_type": "md5",
+      "malware_family": "TrickBot",
+      "file_type": "exe"
+    },
+    {
+      "hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+      "hash_type": "sha256",
+      "malware_family": "Cobalt Strike",
+      "file_type": "exe"
+    }
+  ]
+}
