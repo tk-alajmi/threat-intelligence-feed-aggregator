@@ -1,0 +1,57 @@
+============================================================
+THREAT INTELLIGENCE REPORT
+============================================================
+Generated: 2026-03-10 01:30:45
+Sources: Sample Feed
+
+[INDICATOR SUMMARY]
+  Total Indicators: 20
+  - IP Addresses:   7
+  - Domains:        6
+  - URLs:           3
+  - MD5 Hashes:     2
+  - SHA256 Hashes:  2
+
+[MALICIOUS IP ADDRESSES]
+  * 185.220.101.34 (Tor Exit Node)
+  * 45.155.205.233 (Port Scanner)
+  * 103.144.240.29 (Botnet C2)
+  * 194.26.192.64 (SSH Bruteforce)
+  * 91.240.118.172 (Malware Distribution)
+
+[MALICIOUS DOMAINS]
+  * secure-paypal-login.com (Phishing - PayPal)
+  * microsoft-verify.net (Phishing - Microsoft)
+  * update-chrome-browser.com (Malware Delivery)
+  * login-bankofamerica.com (Phishing - Bank of America)
+
+[MALICIOUS URLS]
+  * http://malware-download.ru/payload.exe
+  * https://phishing-site.com/login.php?ref=bank
+  * http://45.155.205.233/bot.exe
+
+[MALWARE HASHES]
+  * e99a18c428cb38d5... (MD5 - TrickBot)
+  * 2cf24dba5fb0a30e... (SHA256 - Cobalt Strike)
+
+[THREAT CATEGORIES]
+  Phishing:     4 indicators
+  Malware:      6 indicators
+  C2 Servers:   1 indicator
+  Scanners:     2 indicators
+
+[RECOMMENDATIONS]
+  * Block malicious IPs in firewall/IDS rules
+  * Add malicious domains to DNS sinkhole/blocklist
+  * Block URLs in web proxy/content filter
+  * Update endpoint detection with new malware hashes
+  * Alert SOC team about active phishing campaigns
+
+[PRIORITY ACTIONS]
+  HIGH: Block C2 server 103.144.240.29 immediately
+  HIGH: Add phishing domains to email gateway blocklist
+  MEDIUM: Update IDS signatures for malware hashes
+
+============================================================
+End of Report
+============================================================
