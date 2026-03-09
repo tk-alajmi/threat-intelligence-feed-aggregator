@@ -171,13 +171,16 @@ Sources: Demo Data
 ## Screenshots
 
 ### Tool Startup
-![Tool Banner](screenshots/demo1.png)
+<img width="1484" height="768" alt="image" src="https://github.com/user-attachments/assets/d8e3810b-16fe-4220-8c49-189b9729c70f" />
+
 
 ### Threat Collection
-![Collection Process](screenshots/demo2.png)
+<img width="665" height="337" alt="image" src="https://github.com/user-attachments/assets/e80c0bf0-1f4d-4632-8855-e5e69cae4848" />
+
 
 ### Intelligence Report
-![Final Report](screenshots/demo3.png)
+<img width="520" height="758" alt="image" src="https://github.com/user-attachments/assets/74868c5e-4aad-4b62-b5ff-7bd6056c3ea8" />
+
 
 ## Future Improvements
 
